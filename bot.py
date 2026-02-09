@@ -19,7 +19,7 @@ import time
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = '8548804129:AAF63y0f77cnUWy98przfKm1ivY1oN8tSsU'  # ← ТВОЙ ТОКЕН
+TOKEN = '8548804129:AAE1gkpLVCsFaMvmgckpYqrse7fwtXc4dR8'  # ← ТВОЙ ТОКЕН
 
 AVAILABLE_CURRENCIES = {
     'EUR': 'EUR 🇪🇺',
@@ -473,4 +473,5 @@ def main():
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
